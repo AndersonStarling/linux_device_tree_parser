@@ -15,14 +15,18 @@ Before building, make sure your system has:
 
 ### 2. Clone the repository
 
-- git clone https://github.com/your-username/device-tree-parser.git
-- cd device-tree-parser
+```
+git clone https://github.com/your-username/device-tree-parser.git
+cd device-tree-parser
+```
 
 ### 3. Build the project
 
 Simply run:
 
+```
 make all
+```
 
 This will compile parse_device_tree.c and link against libfdt, producing an executable called app.
 
@@ -30,7 +34,9 @@ This will compile parse_device_tree.c and link against libfdt, producing an exec
 
 Provide a compiled DTB file then configure it in DTB_PATH at makefile
 
+```
 make run
+```
 
 ### 5. Output example
 
