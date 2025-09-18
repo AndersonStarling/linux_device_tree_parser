@@ -15,8 +15,8 @@ Before building, make sure your system has:
 
 ### 2. Clone the repository
 
-git clone https://github.com/your-username/device-tree-parser.git
-cd device-tree-parser
+- git clone https://github.com/your-username/device-tree-parser.git
+- cd device-tree-parser
 
 ### 3. Build the project
 
