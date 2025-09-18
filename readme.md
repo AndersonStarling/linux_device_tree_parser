@@ -36,6 +36,7 @@ make run
 
 The tool will display the properties and subnodes of the target node defined in the code (APP_PARSED_NODE). You can adjust this macro in parse_device_tree.c to parse different nodes.
 
+```
 /memory:
 device_type = memory
 reg = 0x0 0x40000000
@@ -44,6 +45,7 @@ bank-width = 0x8
 cpu@0:
 compatible = arm,cortex-a15
 reg = 0x0
+```
 
 ## ✨ Features
 
