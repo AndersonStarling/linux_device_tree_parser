@@ -32,7 +32,7 @@ Provide a compiled DTB file then configure it in DTB_PATH at makefile
 
 make run
 
-### 5. Verify output
+### 5. Output example
 
 The tool will display the properties and subnodes of the target node defined in the code (APP_PARSED_NODE). You can adjust this macro in parse_device_tree.c to parse different nodes.
 
