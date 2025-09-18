@@ -55,11 +55,11 @@ reg = 0x0
 
 ## 📂 Project Structure
 device-tree-parser/
-├── out/                # Build output directory (compiled binaries, object files)
-├── .gitignore          # Git ignore configuration
-├── makefile            # Build system configuration
-├── parse_device_tree.c # Main source code for the parser tool
-└── readme.md           # Project documentation
+├── out/                # Build output directory (compiled binaries, object files) 
+├── .gitignore          # Git ignore configuration 
+├── makefile            # Build system configuration 
+├── parse_device_tree.c # Main source code for the parser tool 
+└── readme.md           # Project documentation 
 
 ## 🎯 Use Cases
 
